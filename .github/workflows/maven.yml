@@ -1,0 +1,52 @@
+# This workflow will build a Java project with Maven
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Tests
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu'
+          java-version: 17
+          cache: 'maven'
+          server-id: github
+          server-username: GITHUB_USER_REF
+          server-password: GITHUB_TOKEN_REF # env variable name for GitHub Personal Access Token
+
+      - name: Build with Maven
+        run: mvn -B test --file pom.xml
+        env:
+          GITHUB_USER_REF: jerchende
+          GITHUB_TOKEN_REF: ${{ secrets.PACKAGE_REPO_PASSWORD }}
+
+      - uses: joblo2213/aoc-badges-action@v3
+        with:
+          userid: 1162495                        # your user id, see setup on how to obtain
+          session: ${{ secrets.AOC_SESSION }}    # secret containing session code, see setup on how to obtain
+
+          #         Optional inputs:
+          #
+          year: 2022                                                                                     # The year for which stats should be retrieved
+          #         leaderboard: 'https://adventofcode.com/2020/leaderboard/private/view/00000.json'               # The url of the leaderboard from witch the data is fetched. Typically your private leaderboard.
+          #         file: 'README.md'                                                                              # The file that contains the badges
+          #         dayRegex: '(?<=https:\/\/img\.shields\.io\/badge\/day%20📅-)[0-9]+(?=-blue)'                   # Regular expression that finds the content of the day badge in your file.
+          #         starsRegex: '(?<=https:\/\/img\.shields\.io\/badge\/stars%20⭐-)[0-9]+(?=-yellow)'             # Regular expression that finds the content of the stars badge in your file.
+          #         daysCompletedRegex: '(?<=https:\/\/img\.shields\.io\/badge\/days%20completed-)[0-9]+(?=-red)'  # Regular expression that finds the content of the days completed badge iun your file.
+
+      - uses: stefanzweifel/git-auto-commit-action@v4     # Step that pushes these local changes back to your github repo
+        with:
+          commit_message: Update badges
