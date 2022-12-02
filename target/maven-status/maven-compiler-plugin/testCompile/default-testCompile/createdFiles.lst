@@ -1,2 +1,6 @@
 net/erchen/adventofcode2022/day01/ElfTest.class
 net/erchen/adventofcode2022/day01/CalorieCounterTest.class
+net/erchen/adventofcode2022/day02/GameResultTest.class
+net/erchen/adventofcode2022/day02/RockPaperScissorsTournamentTest.class
+net/erchen/adventofcode2022/day02/MoveTest.class
+net/erchen/adventofcode2022/day02/RoundTest.class

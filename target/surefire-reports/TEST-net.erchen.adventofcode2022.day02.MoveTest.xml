@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.erchen.adventofcode2022.day01.CalorieCounterTest" time="0.133" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.erchen.adventofcode2022.day02.MoveTest" time="0.053" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -51,9 +51,28 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldFindTop3ElvesWithTheMostCalories_Sample" classname="net.erchen.adventofcode2022.day01.CalorieCounterTest" time="0.087"/>
-  <testcase name="shouldFindTop3ElvesWithTheMostCalories_Part2" classname="net.erchen.adventofcode2022.day01.CalorieCounterTest" time="0.019"/>
-  <testcase name="shouldParseFromInput" classname="net.erchen.adventofcode2022.day01.CalorieCounterTest" time="0.001"/>
-  <testcase name="shouldFindElfWithTheMostCalories_Sample" classname="net.erchen.adventofcode2022.day01.CalorieCounterTest" time="0.003"/>
-  <testcase name="shouldFindElfWithTheMostCalories_Part1" classname="net.erchen.adventofcode2022.day01.CalorieCounterTest" time="0.003"/>
+  <testcase name="shouldInitByMappingChar{char, Move}[1]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0"/>
+  <testcase name="shouldInitByMappingChar{char, Move}[2]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldInitByMappingChar{char, Move}[3]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldInitByMappingChar{char, Move}[4]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldInitByMappingChar{char, Move}[5]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0"/>
+  <testcase name="shouldInitByMappingChar{char, Move}[6]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0"/>
+  <testcase name="shouldGetYourMove{Move, GameResult, Move}[1]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.002"/>
+  <testcase name="shouldGetYourMove{Move, GameResult, Move}[2]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0"/>
+  <testcase name="shouldGetYourMove{Move, GameResult, Move}[3]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldGetYourMove{Move, GameResult, Move}[4]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldGetYourMove{Move, GameResult, Move}[5]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.002"/>
+  <testcase name="shouldGetYourMove{Move, GameResult, Move}[6]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldGetYourMove{Move, GameResult, Move}[7]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0"/>
+  <testcase name="shouldGetYourMove{Move, GameResult, Move}[8]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldGetYourMove{Move, GameResult, Move}[9]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldCalculateWinner{Move, Move, GameResult}[1]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.003"/>
+  <testcase name="shouldCalculateWinner{Move, Move, GameResult}[2]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.002"/>
+  <testcase name="shouldCalculateWinner{Move, Move, GameResult}[3]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.002"/>
+  <testcase name="shouldCalculateWinner{Move, Move, GameResult}[4]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.002"/>
+  <testcase name="shouldCalculateWinner{Move, Move, GameResult}[5]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldCalculateWinner{Move, Move, GameResult}[6]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldCalculateWinner{Move, Move, GameResult}[7]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
+  <testcase name="shouldCalculateWinner{Move, Move, GameResult}[8]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.002"/>
+  <testcase name="shouldCalculateWinner{Move, Move, GameResult}[9]" classname="net.erchen.adventofcode2022.day02.MoveTest" time="0.001"/>
 </testsuite>
