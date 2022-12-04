@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.erchen.adventofcode2022.day02.RockPaperScissorsTournamentTest" time="0.023" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.erchen.adventofcode2022.day03.RucksackLoaderTest" time="0.045" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -51,8 +51,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldCalculateScore_Part2_Solution" classname="net.erchen.adventofcode2022.day02.RockPaperScissorsTournamentTest" time="0.004"/>
-  <testcase name="shouldCalculateScore_Part1_Solution" classname="net.erchen.adventofcode2022.day02.RockPaperScissorsTournamentTest" time="0.008"/>
-  <testcase name="shouldCalculateScore_Part2_Sample" classname="net.erchen.adventofcode2022.day02.RockPaperScissorsTournamentTest" time="0.002"/>
-  <testcase name="shouldCalculateScore_Part1_Sample" classname="net.erchen.adventofcode2022.day02.RockPaperScissorsTournamentTest" time="0.001"/>
+  <testcase name="fromInput" classname="net.erchen.adventofcode2022.day03.RucksackLoaderTest" time="0.007"/>
+  <testcase name="shouldSumPriorities_Sample" classname="net.erchen.adventofcode2022.day03.RucksackLoaderTest" time="0.003"/>
+  <testcase name="shouldSumGroupPriorities_Solution" classname="net.erchen.adventofcode2022.day03.RucksackLoaderTest" time="0.02"/>
+  <testcase name="shouldSumGroupPriorities_Sample" classname="net.erchen.adventofcode2022.day03.RucksackLoaderTest" time="0.001"/>
+  <testcase name="shouldSumPriorities_Solution" classname="net.erchen.adventofcode2022.day03.RucksackLoaderTest" time="0.014"/>
 </testsuite>
