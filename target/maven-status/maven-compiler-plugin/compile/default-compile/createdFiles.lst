@@ -7,10 +7,14 @@ net/erchen/adventofcode2022/day02/Move$1.class
 net/erchen/adventofcode2022/day06/Signal.class
 net/erchen/adventofcode2022/day02/RockPaperScissorsTournament.class
 net/erchen/adventofcode2022/day01/CalorieCounter.class
+net/erchen/adventofcode2022/day07/Directory.class
 net/erchen/adventofcode2022/day03/RucksackLoader.class
 net/erchen/adventofcode2022/day04/CampCleanup.class
 net/erchen/adventofcode2022/day02/GameResult.class
+net/erchen/adventofcode2022/day07/File.class
+net/erchen/adventofcode2022/day07/Handle.class
 net/erchen/adventofcode2022/day02/Round.class
 net/erchen/adventofcode2022/day01/Elf.class
 net/erchen/adventofcode2022/day02/Move.class
 net/erchen/adventofcode2022/day04/ElfGroup.class
+net/erchen/adventofcode2022/day07/FileSystem.class
