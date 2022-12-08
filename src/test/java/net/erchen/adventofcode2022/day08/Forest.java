@@ -51,5 +51,4 @@ public record Forest(Matrix<Integer> trees) {
         }).orElse(0);
     }
 
-
 }
