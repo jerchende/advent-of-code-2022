@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0.035" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.erchen.adventofcode2022.day08.ForestTest" time="0.307" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -51,19 +51,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldPartiallyOverlaps{String, String, boolean}[1]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
-  <testcase name="shouldPartiallyOverlaps{String, String, boolean}[2]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
-  <testcase name="shouldPartiallyOverlaps{String, String, boolean}[3]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
-  <testcase name="shouldPartiallyOverlaps{String, String, boolean}[4]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0.001"/>
-  <testcase name="shouldPartiallyOverlaps{String, String, boolean}[5]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
-  <testcase name="shouldPartiallyOverlaps{String, String, boolean}[6]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0.001"/>
-  <testcase name="shouldPartiallyOverlaps{String, String, boolean}[7]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
-  <testcase name="shouldInitFromInput" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0.005"/>
-  <testcase name="shouldFullyOverlaps{String, String, boolean}[1]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0.01"/>
-  <testcase name="shouldFullyOverlaps{String, String, boolean}[2]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0.002"/>
-  <testcase name="shouldFullyOverlaps{String, String, boolean}[3]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
-  <testcase name="shouldFullyOverlaps{String, String, boolean}[4]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
-  <testcase name="shouldFullyOverlaps{String, String, boolean}[5]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
-  <testcase name="shouldFullyOverlaps{String, String, boolean}[6]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
-  <testcase name="shouldFullyOverlaps{String, String, boolean}[7]" classname="net.erchen.adventofcode2022.day04.ElfGroupTest" time="0"/>
+  <testcase name="shouldGetScenicScore_Sample" classname="net.erchen.adventofcode2022.day08.ForestTest" time="0.004"/>
+  <testcase name="shouldCountVisibleTrees_Solution" classname="net.erchen.adventofcode2022.day08.ForestTest" time="0.1"/>
+  <testcase name="shouldGetHighestScenicScore_Sample" classname="net.erchen.adventofcode2022.day08.ForestTest" time="0"/>
+  <testcase name="shouldCountVisibleTrees_Sample" classname="net.erchen.adventofcode2022.day08.ForestTest" time="0"/>
+  <testcase name="shouldInitFromInput" classname="net.erchen.adventofcode2022.day08.ForestTest" time="0.003"/>
+  <testcase name="shouldGetHighestScenicScore_Solution" classname="net.erchen.adventofcode2022.day08.ForestTest" time="0.197"/>
 </testsuite>
