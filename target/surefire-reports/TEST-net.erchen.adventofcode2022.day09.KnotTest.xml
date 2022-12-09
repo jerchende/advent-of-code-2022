@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.erchen.adventofcode2022.day01.ElfTest" time="0" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.erchen.adventofcode2022.day09.KnotTest" time="0.025" tests="27" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -51,6 +51,31 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldSumAllCalories" classname="net.erchen.adventofcode2022.day01.ElfTest" time="0"/>
-  <testcase name="shouldParseInput" classname="net.erchen.adventofcode2022.day01.ElfTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[1]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[2]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[3]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[4]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[5]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[6]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0.001"/>
+  <testcase name="isNextTo{int, int, boolean}[7]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[8]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[9]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0.002"/>
+  <testcase name="isNextTo{int, int, boolean}[10]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[11]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[12]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0.001"/>
+  <testcase name="isNextTo{int, int, boolean}[13]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[14]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[15]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[16]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0.001"/>
+  <testcase name="isNextTo{int, int, boolean}[17]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0.001"/>
+  <testcase name="isNextTo{int, int, boolean}[18]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[19]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[20]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0.001"/>
+  <testcase name="isNextTo{int, int, boolean}[21]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[22]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="isNextTo{int, int, boolean}[23]" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0.001"/>
+  <testcase name="up" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="down" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0.001"/>
+  <testcase name="left" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
+  <testcase name="right" classname="net.erchen.adventofcode2022.day09.KnotTest" time="0"/>
 </testsuite>
