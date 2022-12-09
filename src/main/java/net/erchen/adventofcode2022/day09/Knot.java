@@ -1,9 +1,6 @@
 package net.erchen.adventofcode2022.day09;
 
 
-import lombok.With;
-
-@With
 public record Knot(int x, int y) {
 
     public Knot up() {

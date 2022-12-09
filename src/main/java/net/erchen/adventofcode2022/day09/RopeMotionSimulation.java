@@ -39,5 +39,4 @@ public class RopeMotionSimulation {
     static List<Direction> simpleCommands(String input) {
         return Arrays.stream(input.split("\n")).flatMap(command -> Collections.nCopies(Integer.parseInt(command.substring(2)), Direction.fromChar(command.charAt(0))).stream()).toList();
     }
-
 }
