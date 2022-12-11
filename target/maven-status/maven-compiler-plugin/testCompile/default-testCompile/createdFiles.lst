@@ -1,3 +1,4 @@
+net/erchen/adventofcode2022/day11/KeepAwayGameTest.class
 net/erchen/adventofcode2022/day03/RucksackLoaderTest.class
 net/erchen/adventofcode2022/day09/KnotTest.class
 net/erchen/adventofcode2022/day07/FileSystemTest.class
@@ -8,6 +9,7 @@ net/erchen/adventofcode2022/day06/SignalTest.class
 net/erchen/adventofcode2022/day02/RockPaperScissorsTournamentTest.class
 net/erchen/adventofcode2022/day09/DirectionTest.class
 net/erchen/adventofcode2022/day07/DirectoryTest.class
+net/erchen/adventofcode2022/day11/MonkeyTest.class
 net/erchen/adventofcode2022/day10/CommandTest.class
 net/erchen/adventofcode2022/day02/GameResultTest.class
 net/erchen/adventofcode2022/day01/CalorieCounterTest.class
