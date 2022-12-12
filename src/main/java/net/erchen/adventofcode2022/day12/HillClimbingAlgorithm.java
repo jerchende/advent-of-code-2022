@@ -62,6 +62,7 @@ public class HillClimbingAlgorithm {
     public static int calculateFewestStepsFromAnyLowestPoint(String input) {
         var map = input.replace('S', 'a');
         return IntStream.range(0, map.length())
+                .parallel()
                 .filter(i -> map.charAt(i) == 'a')
                 .mapToObj(i -> map.substring(0, i) + 'S' + map.substring(i + 1))
                 .map(HillClimbingAlgorithm::fromInput)
