@@ -24,6 +24,7 @@ net/erchen/adventofcode2022/day01/ElfTest.class
 net/erchen/adventofcode2022/day09/DirectionTest.class
 net/erchen/adventofcode2022/day01/CalorieCounterTest.class
 net/erchen/adventofcode2022/day05/ShipTest.class
+net/erchen/adventofcode2022/day14/RegolithReservoirTest.class
 net/erchen/adventofcode2022/day12/HillClimbingAlgorithmTest.class
 net/erchen/adventofcode2022/day08/ForestTest.class
 net/erchen/adventofcode2022/day04/SectionTest.class
