@@ -15,8 +15,8 @@ net/erchen/adventofcode2022/day05/CommandTest.class
 net/erchen/adventofcode2022/day10/ArgumentTest.class
 net/erchen/adventofcode2022/day07/FileTest.class
 net/erchen/adventofcode2022/day04/CampCleanupTest.class
-net/erchen/adventofcode2022/day10/CathodeRayTubeProgramTest.class
 net/erchen/adventofcode2022/day09/RopeMotionSimulationTest.class
+net/erchen/adventofcode2022/day10/CathodeRayTubeProgramTest.class
 net/erchen/adventofcode2022/day11/KeepAwayGameTest.class
 net/erchen/adventofcode2022/day07/FileSystemTest.class
 net/erchen/adventofcode2022/day02/MoveTest.class

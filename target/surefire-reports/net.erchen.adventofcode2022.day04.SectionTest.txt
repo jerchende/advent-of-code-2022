@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: net.erchen.adventofcode2022.day04.SectionTest
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in net.erchen.adventofcode2022.day04.SectionTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in net.erchen.adventofcode2022.day04.SectionTest
