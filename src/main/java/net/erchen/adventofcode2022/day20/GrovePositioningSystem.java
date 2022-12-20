@@ -33,9 +33,10 @@ public class GrovePositioningSystem {
                 continue;
             }
             var currentIndex = numbers.indexOf(i);
-            int newIndex = (int) (currentIndex + (i.getValue() % (numbers.size() - 1))) % (numbers.size() - 1);
-            while (newIndex <= 0) {
-                newIndex += numbers.size() - 1;
+            var mod = numbers.size() - 1;
+            int newIndex = (int) (currentIndex + (i.getValue() % mod)) % mod;
+            if (newIndex <= 0) {
+                newIndex += mod;
             }
             numbers.add(newIndex > currentIndex ? newIndex + 1 : newIndex, i);
             numbers.remove(newIndex < currentIndex ? currentIndex + 1 : currentIndex);
